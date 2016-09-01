@@ -3,7 +3,7 @@
 //  GDRate
 //
 //  Created by Bell on 16/5/28.
-//  Copyright © 2016年 Bell. All rights reserved.
+//  Copyright © 2016年 GoshDo <http://goshdo.sinaapp.com>. All rights reserved.
 //
 
 import UIKit

@@ -2,8 +2,8 @@
 //  GDOpenSocial.swift
 //  GDOpenSocial
 //
-//  Created by BINGZHONG ZENG on 15/11/5.
-//  Copyright © 2015年 BINGZHONG ZENG. All rights reserved.
+//  Created by Bell on 16/5/28.
+//  Copyright © 2016年 GoshDo <http://goshdo.sinaapp.com>. All rights reserved.
 //
 
 import UIKit

@@ -1,9 +1,9 @@
 //
-//  CheckVersion.swift
-//  brainstrom
+//  GDCheckVersion.swift
+//  GDCheckVersion
 //
 //  Created by Bell on 16/1/6.
-//  Copyright © 2016年 BINGZHONG ZENG. All rights reserved.
+//  Copyright © 2016年 GoshDo <http://goshdo.sinaapp.com>. All rights reserved.
 //
 
 import UIKit

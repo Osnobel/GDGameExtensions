@@ -1,0 +1,415 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		28CDE20A1D77D93500BF2896 /* GDGameExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 28CDE2091D77D93500BF2896 /* GDGameExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		28CDE2271D78207B00BF2896 /* GDAdBannerAdmob.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CDE2211D78207B00BF2896 /* GDAdBannerAdmob.swift */; };
+		28CDE2281D78207B00BF2896 /* GDAdBannerBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CDE2221D78207B00BF2896 /* GDAdBannerBase.swift */; };
+		28CDE2291D78207B00BF2896 /* GDAdBannerIAd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CDE2231D78207B00BF2896 /* GDAdBannerIAd.swift */; };
+		28CDE22A1D78207B00BF2896 /* GDAdBannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CDE2241D78207B00BF2896 /* GDAdBannerView.swift */; };
+		28CDE22B1D78207B00BF2896 /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28CDE2261D78207B00BF2896 /* GoogleMobileAds.framework */; };
+		28CDE23E1D7820F200BF2896 /* GDCheckVersion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CDE22D1D7820F200BF2896 /* GDCheckVersion.swift */; };
+		28CDE23F1D7820F200BF2896 /* GDGameCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CDE22F1D7820F200BF2896 /* GDGameCenter.swift */; };
+		28CDE2401D7820F200BF2896 /* GDInAppPurchase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CDE2311D7820F200BF2896 /* GDInAppPurchase.swift */; };
+		28CDE2411D7820F200BF2896 /* GDOpenSocial+QQ.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CDE2331D7820F200BF2896 /* GDOpenSocial+QQ.swift */; };
+		28CDE2421D7820F200BF2896 /* GDOpenSocial+WeChat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CDE2341D7820F200BF2896 /* GDOpenSocial+WeChat.swift */; };
+		28CDE2431D7820F200BF2896 /* GDOpenSocial+Weibo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CDE2351D7820F200BF2896 /* GDOpenSocial+Weibo.swift */; };
+		28CDE2441D7820F200BF2896 /* GDOpenSocial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CDE2361D7820F200BF2896 /* GDOpenSocial.swift */; };
+		28CDE2451D7820F200BF2896 /* GDOpenSocialActivity+QQ.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CDE2371D7820F200BF2896 /* GDOpenSocialActivity+QQ.swift */; };
+		28CDE2461D7820F200BF2896 /* GDOpenSocialActivity+WeChat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CDE2381D7820F200BF2896 /* GDOpenSocialActivity+WeChat.swift */; };
+		28CDE2471D7820F200BF2896 /* GDOpenSocialActivity+Weibo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CDE2391D7820F200BF2896 /* GDOpenSocialActivity+Weibo.swift */; };
+		28CDE2481D7820F200BF2896 /* GDOpenSocialActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CDE23A1D7820F200BF2896 /* GDOpenSocialActivity.swift */; };
+		28CDE2491D7820F200BF2896 /* GDOpenSocialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CDE23B1D7820F200BF2896 /* GDOpenSocialViewController.swift */; };
+		28CDE24A1D7820F200BF2896 /* GDRate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CDE23D1D7820F200BF2896 /* GDRate.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		28CDE2061D77D93500BF2896 /* GDGameExtensions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GDGameExtensions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		28CDE2091D77D93500BF2896 /* GDGameExtensions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GDGameExtensions.h; sourceTree = "<group>"; };
+		28CDE20B1D77D93500BF2896 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28CDE2211D78207B00BF2896 /* GDAdBannerAdmob.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GDAdBannerAdmob.swift; sourceTree = "<group>"; };
+		28CDE2221D78207B00BF2896 /* GDAdBannerBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GDAdBannerBase.swift; sourceTree = "<group>"; };
+		28CDE2231D78207B00BF2896 /* GDAdBannerIAd.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GDAdBannerIAd.swift; sourceTree = "<group>"; };
+		28CDE2241D78207B00BF2896 /* GDAdBannerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GDAdBannerView.swift; sourceTree = "<group>"; };
+		28CDE2261D78207B00BF2896 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMobileAds.framework; sourceTree = "<group>"; };
+		28CDE22D1D7820F200BF2896 /* GDCheckVersion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GDCheckVersion.swift; sourceTree = "<group>"; };
+		28CDE22F1D7820F200BF2896 /* GDGameCenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GDGameCenter.swift; sourceTree = "<group>"; };
+		28CDE2311D7820F200BF2896 /* GDInAppPurchase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GDInAppPurchase.swift; sourceTree = "<group>"; };
+		28CDE2331D7820F200BF2896 /* GDOpenSocial+QQ.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "GDOpenSocial+QQ.swift"; sourceTree = "<group>"; };
+		28CDE2341D7820F200BF2896 /* GDOpenSocial+WeChat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "GDOpenSocial+WeChat.swift"; sourceTree = "<group>"; };
+		28CDE2351D7820F200BF2896 /* GDOpenSocial+Weibo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "GDOpenSocial+Weibo.swift"; sourceTree = "<group>"; };
+		28CDE2361D7820F200BF2896 /* GDOpenSocial.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GDOpenSocial.swift; sourceTree = "<group>"; };
+		28CDE2371D7820F200BF2896 /* GDOpenSocialActivity+QQ.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "GDOpenSocialActivity+QQ.swift"; sourceTree = "<group>"; };
+		28CDE2381D7820F200BF2896 /* GDOpenSocialActivity+WeChat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "GDOpenSocialActivity+WeChat.swift"; sourceTree = "<group>"; };
+		28CDE2391D7820F200BF2896 /* GDOpenSocialActivity+Weibo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "GDOpenSocialActivity+Weibo.swift"; sourceTree = "<group>"; };
+		28CDE23A1D7820F200BF2896 /* GDOpenSocialActivity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GDOpenSocialActivity.swift; sourceTree = "<group>"; };
+		28CDE23B1D7820F200BF2896 /* GDOpenSocialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GDOpenSocialViewController.swift; sourceTree = "<group>"; };
+		28CDE23D1D7820F200BF2896 /* GDRate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GDRate.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		28CDE2021D77D93500BF2896 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28CDE22B1D78207B00BF2896 /* GoogleMobileAds.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		28CDE1FC1D77D93500BF2896 = {
+			isa = PBXGroup;
+			children = (
+				28CDE2081D77D93500BF2896 /* GDGameExtensions */,
+				28CDE2071D77D93500BF2896 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		28CDE2071D77D93500BF2896 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				28CDE2061D77D93500BF2896 /* GDGameExtensions.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		28CDE2081D77D93500BF2896 /* GDGameExtensions */ = {
+			isa = PBXGroup;
+			children = (
+				28CDE2201D78207B00BF2896 /* GDAds */,
+				28CDE22C1D7820F200BF2896 /* GDCheckVersion */,
+				28CDE22E1D7820F200BF2896 /* GDGameCenter */,
+				28CDE2301D7820F200BF2896 /* GDInAppPurchase */,
+				28CDE2321D7820F200BF2896 /* GDOpenSocial */,
+				28CDE23C1D7820F200BF2896 /* GDReview */,
+				28CDE2091D77D93500BF2896 /* GDGameExtensions.h */,
+				28CDE20B1D77D93500BF2896 /* Info.plist */,
+			);
+			path = GDGameExtensions;
+			sourceTree = "<group>";
+		};
+		28CDE2201D78207B00BF2896 /* GDAds */ = {
+			isa = PBXGroup;
+			children = (
+				28CDE2211D78207B00BF2896 /* GDAdBannerAdmob.swift */,
+				28CDE2221D78207B00BF2896 /* GDAdBannerBase.swift */,
+				28CDE2231D78207B00BF2896 /* GDAdBannerIAd.swift */,
+				28CDE2241D78207B00BF2896 /* GDAdBannerView.swift */,
+				28CDE2261D78207B00BF2896 /* GoogleMobileAds.framework */,
+			);
+			path = GDAds;
+			sourceTree = "<group>";
+		};
+		28CDE22C1D7820F200BF2896 /* GDCheckVersion */ = {
+			isa = PBXGroup;
+			children = (
+				28CDE22D1D7820F200BF2896 /* GDCheckVersion.swift */,
+			);
+			path = GDCheckVersion;
+			sourceTree = "<group>";
+		};
+		28CDE22E1D7820F200BF2896 /* GDGameCenter */ = {
+			isa = PBXGroup;
+			children = (
+				28CDE22F1D7820F200BF2896 /* GDGameCenter.swift */,
+			);
+			path = GDGameCenter;
+			sourceTree = "<group>";
+		};
+		28CDE2301D7820F200BF2896 /* GDInAppPurchase */ = {
+			isa = PBXGroup;
+			children = (
+				28CDE2311D7820F200BF2896 /* GDInAppPurchase.swift */,
+			);
+			path = GDInAppPurchase;
+			sourceTree = "<group>";
+		};
+		28CDE2321D7820F200BF2896 /* GDOpenSocial */ = {
+			isa = PBXGroup;
+			children = (
+				28CDE2331D7820F200BF2896 /* GDOpenSocial+QQ.swift */,
+				28CDE2341D7820F200BF2896 /* GDOpenSocial+WeChat.swift */,
+				28CDE2351D7820F200BF2896 /* GDOpenSocial+Weibo.swift */,
+				28CDE2361D7820F200BF2896 /* GDOpenSocial.swift */,
+				28CDE2371D7820F200BF2896 /* GDOpenSocialActivity+QQ.swift */,
+				28CDE2381D7820F200BF2896 /* GDOpenSocialActivity+WeChat.swift */,
+				28CDE2391D7820F200BF2896 /* GDOpenSocialActivity+Weibo.swift */,
+				28CDE23A1D7820F200BF2896 /* GDOpenSocialActivity.swift */,
+				28CDE23B1D7820F200BF2896 /* GDOpenSocialViewController.swift */,
+			);
+			path = GDOpenSocial;
+			sourceTree = "<group>";
+		};
+		28CDE23C1D7820F200BF2896 /* GDReview */ = {
+			isa = PBXGroup;
+			children = (
+				28CDE23D1D7820F200BF2896 /* GDRate.swift */,
+			);
+			path = GDReview;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		28CDE2031D77D93500BF2896 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28CDE20A1D77D93500BF2896 /* GDGameExtensions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		28CDE2051D77D93500BF2896 /* GDGameExtensions */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28CDE21A1D77D93500BF2896 /* Build configuration list for PBXNativeTarget "GDGameExtensions" */;
+			buildPhases = (
+				28CDE2011D77D93500BF2896 /* Sources */,
+				28CDE2021D77D93500BF2896 /* Frameworks */,
+				28CDE2031D77D93500BF2896 /* Headers */,
+				28CDE2041D77D93500BF2896 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GDGameExtensions;
+			productName = GDGameExtensions;
+			productReference = 28CDE2061D77D93500BF2896 /* GDGameExtensions.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		28CDE1FD1D77D93500BF2896 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "GoshDo <http://goshdo.sinaapp.com>";
+				TargetAttributes = {
+					28CDE2051D77D93500BF2896 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 28CDE2001D77D93500BF2896 /* Build configuration list for PBXProject "GDGameExtensions" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 28CDE1FC1D77D93500BF2896;
+			productRefGroup = 28CDE2071D77D93500BF2896 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				28CDE2051D77D93500BF2896 /* GDGameExtensions */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		28CDE2041D77D93500BF2896 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		28CDE2011D77D93500BF2896 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28CDE22A1D78207B00BF2896 /* GDAdBannerView.swift in Sources */,
+				28CDE23E1D7820F200BF2896 /* GDCheckVersion.swift in Sources */,
+				28CDE2451D7820F200BF2896 /* GDOpenSocialActivity+QQ.swift in Sources */,
+				28CDE2281D78207B00BF2896 /* GDAdBannerBase.swift in Sources */,
+				28CDE2491D7820F200BF2896 /* GDOpenSocialViewController.swift in Sources */,
+				28CDE2401D7820F200BF2896 /* GDInAppPurchase.swift in Sources */,
+				28CDE2271D78207B00BF2896 /* GDAdBannerAdmob.swift in Sources */,
+				28CDE2411D7820F200BF2896 /* GDOpenSocial+QQ.swift in Sources */,
+				28CDE2421D7820F200BF2896 /* GDOpenSocial+WeChat.swift in Sources */,
+				28CDE24A1D7820F200BF2896 /* GDRate.swift in Sources */,
+				28CDE2441D7820F200BF2896 /* GDOpenSocial.swift in Sources */,
+				28CDE2481D7820F200BF2896 /* GDOpenSocialActivity.swift in Sources */,
+				28CDE2461D7820F200BF2896 /* GDOpenSocialActivity+WeChat.swift in Sources */,
+				28CDE2471D7820F200BF2896 /* GDOpenSocialActivity+Weibo.swift in Sources */,
+				28CDE2291D78207B00BF2896 /* GDAdBannerIAd.swift in Sources */,
+				28CDE2431D7820F200BF2896 /* GDOpenSocial+Weibo.swift in Sources */,
+				28CDE23F1D7820F200BF2896 /* GDGameCenter.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		28CDE2181D77D93500BF2896 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		28CDE2191D77D93500BF2896 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		28CDE21B1D77D93500BF2896 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/GDGameExtensions/GDAds",
+				);
+				INFOPLIST_FILE = GDGameExtensions/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.goshdo.GDGameExtensions;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		28CDE21C1D77D93500BF2896 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/GDGameExtensions/GDAds",
+				);
+				INFOPLIST_FILE = GDGameExtensions/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.goshdo.GDGameExtensions;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		28CDE2001D77D93500BF2896 /* Build configuration list for PBXProject "GDGameExtensions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28CDE2181D77D93500BF2896 /* Debug */,
+				28CDE2191D77D93500BF2896 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28CDE21A1D77D93500BF2896 /* Build configuration list for PBXNativeTarget "GDGameExtensions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28CDE21B1D77D93500BF2896 /* Debug */,
+				28CDE21C1D77D93500BF2896 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 28CDE1FD1D77D93500BF2896 /* Project object */;
+}
