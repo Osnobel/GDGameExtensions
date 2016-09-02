@@ -8,7 +8,7 @@
 
 import UIKit
 
-@objc public protocol GDAdBannerBaseDelegate : NSObjectProtocol {
+@objc protocol GDAdBannerBaseDelegate : NSObjectProtocol {
     //MARK: Ad Request Lifecycle Notifications
     optional func bannerBaseDidReceiveAd(banner: GDAdBannerBase!)
     optional func bannerBase(banner: GDAdBannerBase!, didFailToReceiveAdWithError error: NSError!)
@@ -21,10 +21,10 @@ import UIKit
     optional func bannerBaseSizeDidChanged(size: CGSize)
 }
 
-public class GDAdBannerBase: NSObject {
-    weak public var delegate: GDAdBannerBaseDelegate?
-    public var weight: UInt64 = 0
-    public var visible: Bool = false {
+class GDAdBannerBase: NSObject {
+    weak var delegate: GDAdBannerBaseDelegate?
+    var weight: UInt64 = 0
+    var visible: Bool = false {
         didSet {
             UIView.animateWithDuration(0.25, animations: {
 //                self.bannerView.frame = self.bannerFrame
@@ -43,7 +43,7 @@ public class GDAdBannerBase: NSObject {
     private let frameKeyPath = "frame"
     private var frameContext = ""
     
-    public var bannerView: UIView = UIView() {
+    var bannerView: UIView = UIView() {
         didSet {
             if self.bannerView == oldValue {
                 return
@@ -53,7 +53,7 @@ public class GDAdBannerBase: NSObject {
         }
     }
     
-    public override func observeValueForKeyPath(keyPath: String?, ofObject object: AnyObject?, change: [String : AnyObject]?, context: UnsafeMutablePointer<Void>) {
+    override func observeValueForKeyPath(keyPath: String?, ofObject object: AnyObject?, change: [String : AnyObject]?, context: UnsafeMutablePointer<Void>) {
         guard let view = object as? UIView else { return }
         
         if context == &frameContext && keyPath == frameKeyPath && self.visible {
@@ -88,11 +88,11 @@ public class GDAdBannerBase: NSObject {
 //        return frame
 //    }
     
-    public func create(superview: UIView) {
+    func create(superview: UIView) {
         self.bannerView.addObserver(self, forKeyPath: frameKeyPath, options: .Initial, context: &frameContext)
     }
     
-    public func destroy() {
+    func destroy() {
         self.bannerView.removeObserver(self, forKeyPath: frameKeyPath, context: &frameContext)
     }
 }

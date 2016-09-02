@@ -105,27 +105,27 @@ public class GDAdBannerView: UIView, GDAdBannerBaseDelegate {
     }
     
     //MARK: GDAdBannerBaseDelegate methods
-    public func bannerBaseDidReceiveAd(banner: GDAdBannerBase!) {
+    func bannerBaseDidReceiveAd(banner: GDAdBannerBase!) {
         print("[GDAdBannerView]#bannerBaseDidReceiveAd.")
         self.best()
     }
-    public func bannerBase(banner: GDAdBannerBase!, didFailToReceiveAdWithError error: NSError!) {
+    func bannerBase(banner: GDAdBannerBase!, didFailToReceiveAdWithError error: NSError!) {
         print("[GDAdBannerView]#bannerBaseDidFailToReceiveAdWithError:\(error.localizedDescription).")
         self.best()
     }
-    public func bannerBaseWillPresentScreen(banner: GDAdBannerBase!) {
+    func bannerBaseWillPresentScreen(banner: GDAdBannerBase!) {
         print("[GDAdBannerView]#bannerBaseWillPresentScreen.")
     }
-    public func bannerBaseWillDismissScreen(banner: GDAdBannerBase!) {
+    func bannerBaseWillDismissScreen(banner: GDAdBannerBase!) {
         print("[GDAdBannerView]#bannerBaseWillDismissScreen.")
     }
-    public func bannerBaseDidDismissScreen(banner: GDAdBannerBase!) {
+    func bannerBaseDidDismissScreen(banner: GDAdBannerBase!) {
         print("[GDAdBannerView]#bannerBaseDidDismissScreen.")
     }
-    public func bannerBaseWillLeaveApplication(banner: GDAdBannerBase!) {
+    func bannerBaseWillLeaveApplication(banner: GDAdBannerBase!) {
         print("[GDAdBannerView]#bannerBaseWillLeaveApplication.")
     }
-    public func bannerBaseSizeDidChanged(size: CGSize) {
+    func bannerBaseSizeDidChanged(size: CGSize) {
         print("[GDAdBannerView]#bannerBaseSizeDidChanged:\(size).")
         self._widthConstraint?.constant = size.width
         self._heightConstraint?.constant = size.height
