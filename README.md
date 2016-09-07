@@ -209,7 +209,7 @@ GDOpenSocial.registerWeChatApi("appkey")
 GDOpenSocial.registerWeiboApi("appkey")
 ```
 
-### Auth
+#### Auth
 ```swift
 GDOpenSocial.authQQ { (resultData, error) -> Void in
     if let access_token = resultData["access_token"] as? String {
