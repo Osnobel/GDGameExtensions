@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2840538F1D7E654C00208B3B /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2840538E1D7E654C00208B3B /* iAd.framework */; };
+		284053971D7E669500208B3B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284053961D7E669500208B3B /* AppDelegate.swift */; };
+		284053991D7E669500208B3B /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 284053981D7E669500208B3B /* GameScene.sks */; };
+		2840539B1D7E669500208B3B /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2840539A1D7E669500208B3B /* GameScene.swift */; };
+		2840539D1D7E669500208B3B /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2840539C1D7E669500208B3B /* GameViewController.swift */; };
+		284053A01D7E669500208B3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2840539E1D7E669500208B3B /* Main.storyboard */; };
+		284053A21D7E669500208B3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 284053A11D7E669500208B3B /* Assets.xcassets */; };
+		284053A51D7E669500208B3B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 284053A31D7E669500208B3B /* LaunchScreen.storyboard */; };
+		284053AA1D7E675600208B3B /* GDGameExtensions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28CDE2061D77D93500BF2896 /* GDGameExtensions.framework */; };
+		284053AB1D7E675600208B3B /* GDGameExtensions.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 28CDE2061D77D93500BF2896 /* GDGameExtensions.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		28CDE20A1D77D93500BF2896 /* GDGameExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 28CDE2091D77D93500BF2896 /* GDGameExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		28CDE2271D78207B00BF2896 /* GDAdBannerAdmob.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CDE2211D78207B00BF2896 /* GDAdBannerAdmob.swift */; };
 		28CDE2281D78207B00BF2896 /* GDAdBannerBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CDE2221D78207B00BF2896 /* GDAdBannerBase.swift */; };
@@ -28,7 +38,41 @@
 		28CDE24A1D7820F200BF2896 /* GDRate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CDE23D1D7820F200BF2896 /* GDRate.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		284053AC1D7E675600208B3B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28CDE1FD1D77D93500BF2896 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28CDE2051D77D93500BF2896;
+			remoteInfo = GDGameExtensions;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		284053AE1D7E675700208B3B /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				284053AB1D7E675600208B3B /* GDGameExtensions.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		2840538E1D7E654C00208B3B /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		284053941D7E669400208B3B /* GDGameExtensionsExamples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GDGameExtensionsExamples.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		284053961D7E669500208B3B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		284053981D7E669500208B3B /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		2840539A1D7E669500208B3B /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		2840539C1D7E669500208B3B /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		2840539F1D7E669500208B3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		284053A11D7E669500208B3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		284053A41D7E669500208B3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		284053A61D7E669500208B3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		28CDE2061D77D93500BF2896 /* GDGameExtensions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GDGameExtensions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		28CDE2091D77D93500BF2896 /* GDGameExtensions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GDGameExtensions.h; sourceTree = "<group>"; };
 		28CDE20B1D77D93500BF2896 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -53,10 +97,19 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		284053911D7E669400208B3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				284053AA1D7E675600208B3B /* GDGameExtensions.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		28CDE2021D77D93500BF2896 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2840538F1D7E654C00208B3B /* iAd.framework in Frameworks */,
 				28CDE22B1D78207B00BF2896 /* GoogleMobileAds.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -64,10 +117,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		284053951D7E669500208B3B /* GDGameExtensionsExamples */ = {
+			isa = PBXGroup;
+			children = (
+				284053961D7E669500208B3B /* AppDelegate.swift */,
+				284053981D7E669500208B3B /* GameScene.sks */,
+				2840539A1D7E669500208B3B /* GameScene.swift */,
+				2840539C1D7E669500208B3B /* GameViewController.swift */,
+				2840539E1D7E669500208B3B /* Main.storyboard */,
+				284053A11D7E669500208B3B /* Assets.xcassets */,
+				284053A31D7E669500208B3B /* LaunchScreen.storyboard */,
+				284053A61D7E669500208B3B /* Info.plist */,
+			);
+			path = GDGameExtensionsExamples;
+			sourceTree = "<group>";
+		};
 		28CDE1FC1D77D93500BF2896 = {
 			isa = PBXGroup;
 			children = (
 				28CDE2081D77D93500BF2896 /* GDGameExtensions */,
+				284053951D7E669500208B3B /* GDGameExtensionsExamples */,
 				28CDE2071D77D93500BF2896 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -76,6 +145,7 @@
 			isa = PBXGroup;
 			children = (
 				28CDE2061D77D93500BF2896 /* GDGameExtensions.framework */,
+				284053941D7E669400208B3B /* GDGameExtensionsExamples.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -103,6 +173,7 @@
 				28CDE2231D78207B00BF2896 /* GDAdBannerIAd.swift */,
 				28CDE2241D78207B00BF2896 /* GDAdBannerView.swift */,
 				28CDE2261D78207B00BF2896 /* GoogleMobileAds.framework */,
+				2840538E1D7E654C00208B3B /* iAd.framework */,
 			);
 			path = GDAds;
 			sourceTree = "<group>";
@@ -169,6 +240,25 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		284053931D7E669400208B3B /* GDGameExtensionsExamples */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 284053A71D7E669500208B3B /* Build configuration list for PBXNativeTarget "GDGameExtensionsExamples" */;
+			buildPhases = (
+				284053901D7E669400208B3B /* Sources */,
+				284053911D7E669400208B3B /* Frameworks */,
+				284053921D7E669400208B3B /* Resources */,
+				284053AE1D7E675700208B3B /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				284053AD1D7E675600208B3B /* PBXTargetDependency */,
+			);
+			name = GDGameExtensionsExamples;
+			productName = GDGameExtensionsExamples;
+			productReference = 284053941D7E669400208B3B /* GDGameExtensionsExamples.app */;
+			productType = "com.apple.product-type.application";
+		};
 		28CDE2051D77D93500BF2896 /* GDGameExtensions */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 28CDE21A1D77D93500BF2896 /* Build configuration list for PBXNativeTarget "GDGameExtensions" */;
@@ -197,6 +287,9 @@
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "GoshDo <http://goshdo.sinaapp.com>";
 				TargetAttributes = {
+					284053931D7E669400208B3B = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
 					28CDE2051D77D93500BF2896 = {
 						CreatedOnToolsVersion = 7.3.1;
 					};
@@ -208,6 +301,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 28CDE1FC1D77D93500BF2896;
 			productRefGroup = 28CDE2071D77D93500BF2896 /* Products */;
@@ -215,11 +309,23 @@
 			projectRoot = "";
 			targets = (
 				28CDE2051D77D93500BF2896 /* GDGameExtensions */,
+				284053931D7E669400208B3B /* GDGameExtensionsExamples */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		284053921D7E669400208B3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				284053991D7E669500208B3B /* GameScene.sks in Resources */,
+				284053A51D7E669500208B3B /* LaunchScreen.storyboard in Resources */,
+				284053A21D7E669500208B3B /* Assets.xcassets in Resources */,
+				284053A01D7E669500208B3B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		28CDE2041D77D93500BF2896 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -230,6 +336,16 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		284053901D7E669400208B3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2840539B1D7E669500208B3B /* GameScene.swift in Sources */,
+				2840539D1D7E669500208B3B /* GameViewController.swift in Sources */,
+				284053971D7E669500208B3B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		28CDE2011D77D93500BF2896 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -256,7 +372,61 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		284053AD1D7E675600208B3B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 28CDE2051D77D93500BF2896 /* GDGameExtensions */;
+			targetProxy = 284053AC1D7E675600208B3B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2840539E1D7E669500208B3B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2840539F1D7E669500208B3B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		284053A31D7E669500208B3B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				284053A41D7E669500208B3B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
+		284053A81D7E669500208B3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = GDGameExtensionsExamples/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.goshdo.GDGameExtensionsExamples;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		284053A91D7E669500208B3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = GDGameExtensionsExamples/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.goshdo.GDGameExtensionsExamples;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		28CDE2181D77D93500BF2896 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -391,6 +561,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		284053A71D7E669500208B3B /* Build configuration list for PBXNativeTarget "GDGameExtensionsExamples" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				284053A81D7E669500208B3B /* Debug */,
+				284053A91D7E669500208B3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		28CDE2001D77D93500BF2896 /* Build configuration list for PBXProject "GDGameExtensions" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

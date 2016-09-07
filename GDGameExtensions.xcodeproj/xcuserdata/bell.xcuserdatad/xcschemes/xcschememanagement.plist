@@ -9,9 +9,19 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>GDGameExtensionsExamples.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>284053931D7E669400208B3B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>28CDE2051D77D93500BF2896</key>
 		<dict>
 			<key>primary</key>

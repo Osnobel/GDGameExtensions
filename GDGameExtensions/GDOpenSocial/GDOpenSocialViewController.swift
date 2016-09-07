@@ -10,7 +10,7 @@ import Foundation
 import UIKit
 
 @available(iOS 8.0, *)
-public class OpenSocialViewController: UIActivityViewController {
+public class GDOpenSocialViewController: UIActivityViewController {
     public var sourceView: UIView? = UIApplication.sharedApplication().keyWindow?.subviews.first {
         didSet {
             if let view = sourceView {
@@ -19,7 +19,7 @@ public class OpenSocialViewController: UIActivityViewController {
             }
         }
     }
-    public init(message: GDOSMessage, checkThirdPartyLogin: Bool) {
+    public init(message: GDOSMessage) {
         var activityItems: [AnyObject] = [message]
         if message.description != nil {
             activityItems.append(message.description!)
@@ -31,9 +31,7 @@ public class OpenSocialViewController: UIActivityViewController {
             activityItems.append(NSURL(string: message.link!)!)
         }
         var activities: [UIActivity]? = nil
-        if checkThirdPartyLogin {
-            activities = [GDOpenSocialWeChatSessionActivity(), GDOpenSocialWeChatTimelineActivity(), GDOpenSocialQQFriendsActivity(), GDOpenSocialQQZoneActivity(), GDOpenSocialWeiboActivity()]
-        }
+        activities = [GDOpenSocialWeChatSessionActivity(), GDOpenSocialWeChatTimelineActivity(), GDOpenSocialQQFriendsActivity(), GDOpenSocialQQZoneActivity(), GDOpenSocialWeiboActivity()]
         
         super.init(activityItems: activityItems, applicationActivities: activities)
         if let view = sourceView {
@@ -48,7 +46,7 @@ public class OpenSocialViewController: UIActivityViewController {
             excludedActivityTypes?.append("com.apple.mobilenotes.SharingExtension")
         }
         // have app
-        if GDOpenSocial.isWeiboApiAvailable && checkThirdPartyLogin {
+        if GDOpenSocial.isWeiboApiAvailable {
             excludedActivityTypes?.append(UIActivityTypePostToWeibo)
         }
     }
@@ -67,6 +65,6 @@ public class OpenSocialViewController: UIActivityViewController {
 }
 
 public extension GDOpenSocial {
-    public static var shareViewController: OpenSocialViewController?
+    public static var shareViewController: GDOpenSocialViewController?
 }
 

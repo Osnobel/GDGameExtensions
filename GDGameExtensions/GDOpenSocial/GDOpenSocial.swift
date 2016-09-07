@@ -267,4 +267,5 @@ public class GDOSMessage {
     public var mediaDataUrl: String?
     public var fileExt: String?
     public var file: NSData?   /// 微信分享gif/文件
+    public init() {}
 }

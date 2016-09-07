@@ -10,14 +10,14 @@ import UIKit
 
 @available(iOS 7.0, *)
 public class GDCheckVersion {
-    init(artistId: String) {
+    public init(artistId: String) {
         let version = NSUserDefaults.standardUserDefaults().stringForKey("Version") ?? NSBundle.mainBundle().localizedInfoDictionary?["CFBundleShortVersionString"] as? String ?? NSBundle.mainBundle().infoDictionary?["CFBundleShortVersionString"] as? String ?? "1.0"
         let bundleId = NSBundle.mainBundle().localizedInfoDictionary?["CFBundleIdentifier"] as? String ?? NSBundle.mainBundle().infoDictionary?["CFBundleIdentifier"] as? String ?? ""
         let country = NSLocale.currentLocale().objectForKey(NSLocaleCountryCode) as? String ?? "US"
         check("/\(version)/\(bundleId)/\(artistId)/\(country)")
     }
     
-    init(trackId: String) {
+    public init(trackId: String) {
         let version = NSUserDefaults.standardUserDefaults().stringForKey("Version") ?? NSBundle.mainBundle().localizedInfoDictionary?["CFBundleShortVersionString"] as? String ?? NSBundle.mainBundle().infoDictionary?["CFBundleShortVersionString"] as? String ?? "1.0"
         let country = NSLocale.currentLocale().objectForKey(NSLocaleCountryCode) as? String ?? "US"
         check("/\(version)/\(trackId)/\(country)")
